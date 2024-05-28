@@ -141,23 +141,124 @@
 // if (null || -1 && 1) alert( 'third' );
 
 //Задание 23
-let login = (prompt("Введите логин"));
+// let login = (prompt("Введите логин"));
 
-if (login == ""){
-    alert("Отменено")
-}
-else if(login == "Админ"){
-    let pass = (prompt("Введите пароль"));
-    if (pass == "Я Главный"){
-        alert("Вы вошли")
-    }
-    else if( pass == null)
-        alert("Ошибка 403")
-    else {
-        alert("Неправильный пароль")
-    }
-}
-else{
-    alert("Ты не админ")
-}
+// if (login == ""){
+//     alert("Отменено")
+// }
+// else if(login == "Админ"){
+//     let pass = (prompt("Введите пароль"));
+//     if (pass == "Я Главный"){
+//         alert("Вы вошли")
+//     }
+//     else if( pass == null)
+//         alert("Ошибка 403")
+//     else {
+//         alert("Неправильный пароль")
+//     }
+// }
+// else{
+//     alert("Ты не админ")
+// }
+// 
+//Задание 1
+
+// function plus(a,b){
+//     x = a + b
+//     return x
+// }
+// function minus(a,b){
+//     z = a - b
+//     return z
+// }
+// function multi(a,b){
+//     c = a * b
+//     return c
+// }
+// function del(a,b){
+//     v = a / b
+//     return v
+// }
+// alert(plus(2,3));
+// alert(del(2,3));
+// alert(multi(2,3));
+// alert(minus(2,3));
+//
+//Задание 2
+//
+// a = prompt("Введите предложение")
+// alert(a.length)
+
+//Задание 3 
+// a = prompt("Введите число")
+// if (a > 0){
+//     alert("Число положительно")
+// }
+// else if(a < 0){
+//     alert("Число отрицательно")
+// }
+// else{
+//     alert("Число = 0")
+// }
+//Задание 4
+// a=prompt("сколько чисел")
+// var z = 0
+// i=0
+// for(var i=0; i!=a;i++){
+//     b = prompt("Введите число")
+//     var z = +z + +b;
+//     var b = 0
+// }
+// var ans = z/a
+// alert(ans)
+//Задание 5
+// name = prompt("Введите имя")
+// age = prompt("Введите возраст")
+// alert(name)
+// alert(age)
+//
+//Задание 6
+// a= prompt()
+// if (a%2==0){
+//     alert("четно")
+// }
+// else{
+//     alert("нечетно")
+// }
+//
+//Задание 7 
+// a= prompt()
+// if (a<0){
+//     alert("отрицательно")
+// }
+// else{
+//     alert("положитнельно")
+// }
+//Задание 8
+// a=prompt()
+// b=prompt()
+// if(a%b==0){
+//     alert("юез остатка")
+// } 
+// else{
+//     alert("с остатком")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
