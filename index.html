@@ -1,12 +1,72 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
+    <script src="app.js"></script>
+
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Document</title>
     </head>
     <body>
-       
-        <script src="app.js"></script>
-    </body>
+       <h1 id="HeaderH1">Текст</h1>
+        <button onclick="headerH1()">Изменить цвет и ширифт</button>
+        <button onclick="Headerh1()">Вернуть все обратно</button>
+        <ul id="ul-list">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <button onclick="addli()">Добавить</button>
+        <div id="div_img">
+            <img id = "img" src = "photo/photo_2024-05-29_13-00-18.jpg" class="img"></img>
+        </div>
+        <button onclick="deldiv()">Удалить картинку</button>
+        <button onclick = "changeimg()">Изменить картинку</button>
+    <table>
+        <tbody id="table">
+            <tr id = "1row">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+
+            </tr>
+            <tr id = "2row">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
+    <button onclick="addrow1()">Добавить элемент в 1 строку</button>
+    <button onclick="addrow2()">Добавить элемент в 2 строку</button>
+    <button onclick="addnewrow()">Создать новую строку</button>
+    <button onclick="addrow3()">Добавить элемент в новую строку</button>
+
+    <h2 id="headerh2">не изменяй</h2>
+    <button onclick="changetext()">Изменить</button>
+    <button onclick="backtext()">обратно</button>
+    <p>Воу это список:</p>
+    <button onclick="unhidelist()">Нажми чтобы его показать</button>
+    <button onclick="hidelist()">Нажми чтобы его скрыть</button>
+    <menu id="list">
+        <li>утром часик</li>
+        <li>днем часик</li>
+        <li>вечером часик</li>
+        <li>mkt_s</li>
+    </menu>
+<div id="input_div">
+    <input type="text" id="inputtext">
+    <button type="submit" id="save" onclick="save()">Сохранить и вывести</button>
+</div>
+<div id="paste_text">
+
+</div>
+<div>
+    <span id="span_clicker">0</span>
+    <button id="clicker" onclick="clicker()">Кликер</button>
+</div>
+</body>
 </html>
