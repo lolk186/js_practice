@@ -6,3 +6,31 @@
     width: 200px;
     height: 200px;
 }
+.menu{
+    display: flex;
+    padding-left:120px ;
+}
+.about{
+    width: 80px;
+    margin-right: 60px;
+    background-color: white;
+}
+.about:hover{
+    background-color: gray;
+}
+.utils{
+    width: 80px;
+    margin-right: 60px;
+    background-color: white;
+
+}
+.utils:hover{
+    background-color: gray;
+}
+.contacts{
+    width: 80px;
+    background-color: white;
+}
+.contacts:hover{
+    background-color: gray;
+}

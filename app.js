@@ -90,3 +90,56 @@ function clicker(){
     count.innerHTML=nummber
 
 }
+function about(){
+    let about = document.getElementById("about_inner_text")
+    about.innerHTML = "Чето"
+
+}
+function utils(){
+    let about = document.getElementById("about_inner_text")
+    about.innerHTML = "мачето ууххуху"
+
+}
+function contacts(){
+    let about = document.getElementById("about_inner_text")
+    about.innerHTML = "понял принял"
+}
+var num4 = 3
+function addnewrow1(){
+    let row = document.getElementById("table1")
+    var addrow = document.createElement("tr")
+    row.appendChild(addrow)
+    addrow.setAttribute("id",`${num4}_row`)
+    let row3 = document.getElementById(`${num4}_row`)
+    var addrow3 = document.createElement("td")
+    row3.appendChild(addrow3)
+    addrow3.setAttribute("id",`${num4}_name`)
+    var name = document.getElementById("intinput").value;
+    let div_paste = document.getElementById(`${num4}_name`)
+    div_paste.innerHTML= name
+    num4++
+}
+var num5 = 3
+function addnewrow2(){
+    let row3 = document.getElementById(`${num5}_row`)
+    var addrow3 = document.createElement("td")
+    row3.appendChild(addrow3)
+    addrow3.setAttribute("id",`${num5}_vacan`)
+    var name = document.getElementById("intinput1").value;
+    let div_paste = document.getElementById(`${num5}_vacan`)
+    div_paste.innerHTML= name
+    num5++
+
+}
+var num6 = 3
+function addnewrow3(){
+    let row3 = document.getElementById(`${num6}_row`)
+    var addrow3 = document.createElement("td")
+    row3.appendChild(addrow3)
+    addrow3.setAttribute("id",`${num6}_hr`)
+    var name = document.getElementById("intinput2").value;
+    let div_paste = document.getElementById(`${num6}_hr`)
+    div_paste.innerHTML= name
+    num6++
+
+}
